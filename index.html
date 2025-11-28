@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디자이너 임은경의 포트폴리오 홈페이지</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/reset.css?v=1">
+    <link rel="stylesheet" href="./css/font.css?v=1">
+    <link rel="stylesheet" href="./css/common.css?v=1">
+    <link rel="stylesheet" href="./css/style-1920.css?v=1">
+    <link rel="stylesheet" href="./css/style-1024.css?v=1">
+    <link rel="stylesheet" href="./css/style-768.css?v=1">
+    <link rel="stylesheet" href="./css/style-600.css?v=1">
+    <link rel="stylesheet" href="./css/style-430.css?v=1">
+    <link rel="stylesheet" href="./css/style-360.css?v=1">
+    <link rel="stylesheet" href="./css/interaction.css?v=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css"/>
+
+    <!--JS-->
+    <script src="./js/bbyoung.js" defer></script>
+    <script src="./js/observer.js" defer></script>
+    <script src="./js/values.js" defer></script>
+    <script src="./js/exp-drag.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="./js/banner.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>    
+    <script src="./js/header.js"></script>
+</head>
+<body>
+    <header>
+        <div class="common-frame">
+            <ul class="gnb">
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#aboutme">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#visualconcerts">VISUAL</a></li>
+                <li><a href="#banner">BANNERS</a></li>
+                <li><a href="#detailpage">UI PAGE</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="./img/resume.jpg" target="_blank">RESUME</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="btn-menu">
+        <img class="btn-menu-img" src="./img/menu.svg" alt="모바일 메뉴 버튼">
+    </div>
+    <div class="header-smart fadeout">
+        <ul class="gnb-smart">
+            <li><a href="#hero">HOME</a></li>
+            <li><a href="#aboutme">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#visualconcerts">VISUAL</a></li>
+            <li><a href="#banner">BANNERS</a></li>
+            <li><a href="#detailpage">UI PAGE</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="./img/resume.jpg" target="_blank">RESUME</a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="hero" id="hero" aria-labelledby="hero-heading">
+            <img class="deco-hero utd" src="./img/raspberry.png" alt="산딸기 이미지">
+            <div class="common-frame">
+                <div class="hero-title dtu">
+                    <div class="hero-copy">
+                        <h1 id="hero-heading" class="hero-heading">
+                            Design should be clean, readable,<br>
+                            and refined.
+                        </h1>
+                        <p class="hero-subtitle">깔끔함과 가독성을 중심으로 디자인합니다.</p>
+                    </div>
+                    <p class="profile-title">
+                        WEB DESIGNER<br>
+                        <span class="profile-name">임은경</span>
+                    </p>
+                </div>
+                <figure class="dtu">
+                    <img src="./img/banner-logo2.svg" alt="임은경">
+                </figure>
+            </div>
+        </section>
+        <section class="aboutme" id="aboutme">
+            <div class="common-frame">
+                <div class="about-title-wrap">
+                    <h2 class="about-title Pretendard bbyong pc tab mo">
+                        DESIGN WITH CLARITY ✦ CREATE<br> 
+                        WITH PURPOSE
+                    </h2>
+                    <h2 class="about-title Pretendard bbyong mo-600">
+                        DESIGN WITH<br> 
+                        CLARITY ✦<br>
+                        CREATE WITH<br>
+                        PURPOSE
+                    </h2>
+                </div>
+                <p class="ac1">명확한 의도로 디자인하고, 목적을 담아 창조합니다.</p>
+                <section class="values" aria-labelledby="values-heading">
+                    <div class="common-frame">
+                        <div class="values-row-bg">
+                            <div class="values-row">
+                                <button class="value-card is-active" 
+                                    type="button"
+                                    data-title="깔끔함은 디자인의 시작입니다."
+                                    data-body="불필요한 요소를 덜어내고, 사용자가 이해할 수 있는 구조와 흐름을 고민합니다. 보여주기 위한 디자인이 아니라, 의도를 전달하는 디자인을 추구합니다.">
+                                    <span class="value-card-inner">
+                                        <span class="value-icon">
+                                            <img src="./img/icon-i.svg" alt="Clarity First">
+                                        </span>
+                                        <span class="value-label">Clarity First</span>
+                                    </span>
+                                </button>
+                                <button class="value-card"
+                                    type="button"
+                                    data-title="함께할 때 디자인은 더 단단해집니다."
+                                    data-body="기획자, 개발자, 동료 디자이너와의 소통을 통해 의견을 조율하고 발전시키는 유연한 디자이너로 성장하고 싶습니다.">
+                                    <span class="value-card-inner">
+                                        <span class="value-icon">
+                                            <img src="./img/icon-e.svg" alt="Collaborative Grow">
+                                        </span>
+                                        <span class="value-label">Collaborative Grow</span>
+                                    </span>
+                                </button>
+                                <button class="value-card"
+                                    type="button"
+                                    data-title="디자인은 반복과 축적의 결과입니다."
+                                    data-body="작은 디테일 하나에도 세심하게 정성을 들여 흐름과 질서를 유지하고, 끝까지 완성도를 놓지 않는 디자인을 합니다.">
+                                    <span class="value-card-inner">
+                                        <span class="value-icon">
+                                            <img src="./img/icon-u.svg" alt="Consistent Craft">
+                                        </span>
+                                        <span class="value-label">Consistent Craft</span>
+                                    </span>
+                                </button>
+                                <button class="value-card"
+                                    type="button"
+                                    data-title="디자인은 사람을 이해하는 일입니다."
+                                    data-body="사용자의 입장에서 생각하고, 감정이 머무는 인터페이스를 설계합니다. 감성적이면서도 실용적인 아름다움을 함께 담는 것이 목표입니다.">
+                                    <span class="value-card-inner">
+                                        <span class="value-icon">
+                                            <img src="./img/icon-n.svg" alt="Human-Centered Vision">
+                                        </span>
+                                        <span class="value-label">Human-Centered Vision</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="values-detail">
+                            <h3 class="values-detail-title">깔끔함은 디자인의 시작입니다.</h3>
+                            <p class="values-detail-body">
+                                불필요한 요소를 덜어내고, 사용자가 이해할 수 있는 구조와 흐름을 고민합니다. 
+                                보여주기 위한 디자인이 아니라, 의도를 전달하는 디자인을 추구합니다.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="profile" id="profile">
+            <img class="profile-deco rtl-deco" src="./img/raspberry.png" alt="산딸기 이미지">
+            <div class="common-frame">
+                <h2 class="profile-heading">PROFILE</h2>
+                <div class="profile-layout">
+                    <div class="profile-left">
+                        <figure class="profile-photo-wrap">
+                            <img src="./img/profile-photo.jpg" alt="임은경 증명 사진" class="profile-photo">
+                        </figure>
+                        <div class="profile-intro">
+                            <p class="profile-intro-main">깔끔함과 가독성을 중심으로 디자인합니다.</p>
+                            <p class="profile-intro-sub">
+                                작은 디테일에서도 균형과 질서를 찾고,<br>
+                                사용자의 경험을 고려하는 명확한 디자인을 지향합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="profile-right">
+                        <dl class="profile-info">
+                            <div class="profile-info-row">
+                                <dt>NAME</dt><dd>임은경</dd>
+                            </div>
+                            <div class="profile-info-row">
+                                <dt>AGE</dt><dd>30</dd>
+                            </div>
+                            <div class="profile-info-row">
+                                <dt>BIRTH</dt><dd>1996. 11. 14</dd>
+                            </div>
+                            <div class="profile-info-row">
+                                <dt>PHONE</dt><dd>010-8620-9891</dd>
+                            </div>
+                            <div class="profile-info-row">
+                                <dt>MBTI</dt><dd>INFP</dd>
+                            </div>
+                            <div class="profile-info-row">
+                                <dt>CHARACTER</dt><dd>성실함, 부지런함</dd>
+                            </div>
+                        </dl>
+                        <div class="profile-cert">
+                            <h3 class="profile-cert-title">CERTIFICATIONS</h3>
+                            <ul class="profile-cert-list">
+                                <li class="cert-item">
+                                    <span class="profile-cert-date">2025. 09</span>
+                                    <div class="cert-text-wrap">
+                                        <span class="cert-line">GTQI(그래픽기술자격 일러스트)1급 – 한국생산성본부</span>
+                                        <span class="cert-line">GTQ(그래픽기술자격)1급 – 한국생산성본부</span>
+                                    </div>
+                                </li>
+                                <li class="cert-item">
+                                    <span class="profile-cert-date">2022. 06</span>
+                                    <span class="cert-line">2종보통운전면허 – 경찰청(운전면허시험관리단)</span>
+                                </li>
+                                <li class="cert-item">
+                                    <span class="profile-cert-date">2016. 04</span>
+                                    <span class="cert-line">컴퓨터그래픽스운용기능사 – 한국산업인력공단</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="experience">
+            <div class="common-frame">
+                <h2 class="exp-title dtu">EXPERIENCES ✦</h2>
+                <div class="exp-area">
+                    <ul class="exp-list dtu">
+                        <li class="exp-item">
+                            <span class="exp-period">2024. 07  -  2025. 07</span>
+                            <span class="exp-detail">(주)에쓰와이프랜차이즈 - 디지털 디자인</span>
+                        </li>
+                        <li class="exp-item">
+                            <span class="exp-period">2024. 01  -  2024. 07</span>
+                            <span class="exp-detail">크리스앤컴퍼니 - 텍스타일 / 패키지 디자인</span>
+                        </li>
+                        <li class="exp-item">
+                            <span class="exp-period">2023. 08  -  2023. 11</span>
+                            <span class="exp-detail">소프트팩 주식회사 - 편집 디자인</span>
+                        </li>
+                        <li class="exp-item">
+                            <span class="exp-period">2022. 12  -  2023. 08</span>
+                            <span class="exp-detail">주식회사 미디어랩스 - 브랜드 디자인</span>
+                        </li>
+                    </ul>
+                    </div>
+                <div class="exp-wrapper">
+                    <div class="exp-logos">
+                        <figure class="exp-card">
+                            <img src="./img/logo-sy.svg" alt="SY 로고">
+                        </figure>
+                        <figure class="exp-card">
+                            <img src="./img/logo-chris.svg" alt="CHRIS&COMPANY 로고">
+                        </figure>
+                        <figure class="exp-card">
+                            <img src="./img/logo-softpack.svg" alt="SOFTPACK 로고">
+                        </figure>
+                        <figure class="exp-card">
+                            <img src="./img/logo-mediawraps.svg" alt="media wraps 로고">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="common-frame">
+                <h2 class="skills-title">SKILLS &amp; TOOLS</h2>
+                <figure class="skills-visual">
+                    <picture>
+                        <source srcset="./img/skills-768.png" media="(max-width: 768px)">
+                        <source srcset="./img/skills-1024.png" media="(max-width: 1200px)">
+                        <img src="./img/skills-1920.png" alt="디자인 스택과 사용 툴을 설명하는 다이어그램 이미지">
+                    </picture>
+                </figure>
+                <div class="skills-showcase">
+                    <div class="skills-track">
+                        <figure class="skills-card">
+                            <img src="./img/skill-ai.svg" alt="Adobe Illustrator 활용 능력을 설명하는 이미지">
+                        </figure>
+                        <figure class="skills-card">
+                            <img src="./img/skill-ps.svg" alt="Adobe Photoshop 활용 능력을 설명하는 이미지">
+                        </figure>
+                        <figure class="skills-card">
+                            <img src="./img/skill-figma.svg" alt="Figma 활용 능력을 설명하는 이미지">
+                        </figure>
+                        <figure class="skills-card">
+                            <img src="./img/skill-css.svg" alt="CSS 활용 능력을 설명하는 이미지">
+                        </figure>
+                        <figure class="skills-card">
+                            <img src="./img/skill-html.svg" alt="HTML 활용 능력을 설명하는 이미지">
+                        </figure>
+                         <figure class="skills-card">
+                            <img src="./img/skill-js.svg" alt="JavaScript 활용 능력을 설명하는 이미지">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="visual-section" id="visualconcerts">
+            <h1 class="common-frame visual-title">Posters and Popups</h1>
+            <p class="common-frame visual-txt">500픽셀 가로사이즈로 제작한 포스터와 팝업디자인입니다.</p>
+            <div class="visual-bg-text visual-top-text">VISUAL</div>
+            <div class="visual-track visual-track-top swiper">
+                <div class="track-inner track1 swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/v1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v5.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v6.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v3.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v4.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v5.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v6.png" alt=""></div>
+                </div>
+            </div>
+            <script>
+            let trackTop = new Swiper(".visual-track-top",{
+                slidesPerView : "auto",
+                autoplay:{
+                    delay:0
+                },
+                spaceBetween:20,
+                speed:2000,
+                loop:true,
+            })
+            </script>
+            <div class="visual-track visual-track-bottom swiper">
+                <div class="track-inner track1 swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/v10.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v11.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v12.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v13.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v14.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v15.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v16.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v17.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v18.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./img/v19.png" alt=""></div>
+                </div>
+            </div>
+            <script>
+            let trackTop2 = new Swiper(".visual-track-bottom",{
+                slidesPerView : "auto",
+                autoplay:{
+                    delay:0,
+                    reverseDirection:true
+                },
+                spaceBetween:20,
+                speed:2000,
+                loop:true,
+            })
+            </script>
+            <div class="visual-bg-text visual-bottom-text">CONCEPTS</div>
+        </section>
+        <section class="banner-section" id="banner">
+            <div class="common-frame">
+                <div class="section-header">
+                    <h2 class="exp-title dtu">WEB BANNERS ✦</h2>
+                </div>
+                <div class="swiper banner-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                             <figure class="banner-img">
+                                <picture>
+                                     <source srcset="./img/banner1-pc.jpg" media="(min-width: 1024px)" alt="블랙 프라이데이 행사 이미지">
+                                     <source srcset="./img/banner1-tab.jpg" media="(min-width: 768px)" alt="블랙 프라이데이 행사 이미지">
+                                     <img src="./img/banner1-mo.jpg" alt="블랙 프라이데이 행사 이미지">
+                                </picture>
+                             </figure>
+                             <div class="banner-txt">
+                                <h4>Black Friday Promotion Banner</h4>
+                                <p>연말 프로모션을 위한 블랙프라이데이 메인 배너 디자인입니다. 강렬한 대비와 네온 포인트 컬러를 활용해 할인 정보를 직관적으로 전달하도록 구성했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="banner-img">
+                                <picture>
+                                     <source srcset="./img/banner2-pc.jpg" media="(min-width: 1024px)" alt="나이키 신발 행사 이미지">
+                                     <source srcset="./img/banner2-tab.jpg" media="(min-width: 768px)" alt="나이키 신발 행사 이미지">
+                                     <img src="./img/banner2-mo.jpg" alt="나이키 신발 행사 이미지">
+                                </picture>
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>Offline Store Promotion Banner</h4>
+                                <p>전국 오프라인 매장의 할인 혜택을 강조한 프로모션 배너 디자인입니다. 메인 타이포와 제품 이미지를 전면에 배치하고, 컬러 대비를 통해 정보를 인식하도록 구성했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="banner-img">
+                                <picture>
+                                     <source srcset="./img/banner3-pc.jpg" media="(min-width: 1024px)" alt="빵냥이 그랜드 오픈 이미지">
+                                     <source srcset="./img/banner3-tab.jpg" media="(min-width: 768px)" alt="빵냥이 그랜드 오픈 이미지">
+                                     <img src="./img/banner3-mo.jpg" alt="빵냥이 그랜드 오픈 이미지">
+                                </picture>
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>Bbangnyang - Grand Opening Banner</h4>
+                                <p>가상의 베이커리 브랜드 ‘빵냥이’를 기획하며 제작한 그랜드 오픈 프로모션 배너입니다. 파스텔 톤의 컬러 팔레트와 자연광 제품 컷을 활용하고, 중앙에는 정보와 CTA 버튼을 배치하여 시선 흐름을 최적화했습니다.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <figure class="banner-img">
+                                <picture>
+                                     <source srcset="./img/banner4-pc.jpg" media="(min-width: 1024px)" alt="Cats&Dog 그랜드 오픈 이미지">
+                                     <source srcset="./img/banner4-tab.jpg" media="(min-width: 768px)" alt="Cats&Dog 그랜드 오픈 이미지">
+                                     <img src="./img/banner4-mo.jpg" alt="Cats&Dog 그랜드 오픈 이미지">
+                                </picture>
+                            </figure>
+                            <div class="banner-txt">
+                                <h4>Cats&Dog Website Redesign - Opening Event Main Banner</h4>
+                                <p>“반려동물 도매 플랫폼 Cats&Dog의 메인 페이지 리디자인을 위해 제작한 오픈 이벤트 배너입니다. 따뜻한 색감과 여백 기반의 레이아웃을 사용하고, 핵심 메시지와 CTA를 명확하게 전달하도록 UI를 재구성했습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="projects detail-section" id="detailpage">
+            <h1 class="text">
+                DETAIL PAGE DESIGN ✦
+                <span class="text-sub">가로 사이즈 1024px 기준으로<br>제작한 상세페이지 디자인입니다.</span>
+            </h1>
+            <div id="wrapper" class="detail-wrapper">
+                <section id="content" class="detail-content" aria-label="상세페이지 디자인 모음">
+                    <section class="images detail-images">
+                        <img src="./img/로션-상세페이지.jpg" alt="로션 제품 상세페이지 디자인">
+                        <img src="./img/의자-상세페이지.jpg" alt="의자 제품 상세페이지 디자인">
+                    </section>
+                </section>
+            </div>
+        </section>
+        <section class="project-section" id="projects">
+            <div class="project-hero">
+                <img class="project-logo" src="./img/ieun-logo.svg" alt="IEUN 로고">
+                <p>기획부터 와이어프레임, 디자인, 프로토타입까지 전 과정을 직접 수행하였습니다.
+                   <br>반응형 웹디자인을 적용해 다양한 디바이스 환경에서의 접근성을 높였으며, 
+                   <br>직관적인 UI 설계를 통해 브랜드의 정체성을 효과적으로 드러내고자 하였습니다.
+                </p>
+                <div class="project-divider"></div>
+                <h2 class="project-section-title">PROJECTS</h2>
+            </div>
+            <article class="project-item">
+                <a href="./project1.html" class="project1-link" target="_blank">
+                    <div class="project-thumb">
+                        <img src="./img/Project1.jpg" alt="빵냥이 프로젝트 썸네일" >
+                    </div>
+                    <h4 class="project-title">빵냥이</h4>
+                </a>
+                <div class="project-links">
+                    
+                    <a href="https://www.figma.com/design/EDPAAgjX1FLPhcmvEhsbSk/%EB%B9%B5%EB%83%A5%EC%9D%B4?node-id=0-1&t=uvT8uW0Vp3kt2jsu-1" class="project-btn" target="_blank">Figma</a>
+                    <a href="https://bbangnyang.dothome.co.kr/" class="project-btn" target="_blank">Website</a>
+                </div>
+            </article>
+            <article class="project-item">
+                <a href="./project2.html" class="project2-link" target="_blank">
+                    <div class="project-thumb">
+                        <img src="./img/Project2.jpg" alt="CATS&DOG 프로젝트 썸네일">
+                    </div>
+                    <h4 class="project-title">CATS&DOG</h4>
+                </a>
+                    <div class="project-links">
+                        <a href="https://www.figma.com/design/O35AXOdfz6VmN4KCYbrV3J/CATS-DOG?node-id=0-1&t=krfzXhXe99vuoB4E-1" class="project-btn" target="_blank">Figma</a>
+                    </div>
+            </article>
+        </section>
+        <!-- <div class="section-spacer"></div> -->
+        <footer class="footer-section">
+        <div class="footer-inner">
+            <h2 class="footer-title">
+                LET'S CREATE GREAT THINGS <br>
+                TOGETHER
+            </h2>
+            <p class="footer-sub">
+                사용자 경험을 최우선으로 생각하는 디자이너가 되겠습니다.
+            </p>
+            <div class="footer-divider"></div>
+            <div class="footer-btn-wrap">
+                <a href="./img/resume.jpg" target="_blank">
+                    <img src="./img/btn-resume.png" alt="이력서 보기 버튼">
+                </a>
+            </div>
+        </div>
+    </footer>
+    </main> 
+    <!-- GSAP + ScrollTrigger CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray(".project-item").forEach((item) => {
+          gsap.from(item, {
+            scrollTrigger: {
+              trigger: item,         
+              start: "top 95%",      
+              toggleActions: "play none none reverse",
+              // markers: true,      // 위치 확인하고 싶으면 임시로 켜기
+            },
+            y: 150,
+            scale: 0.9,
+            opacity: 0,
+            duration: 1.2,
+            ease: "power3.out"
+          });
+        });
+      });
+    </script>
+</body>
+</html>
