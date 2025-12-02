@@ -432,7 +432,8 @@ header.fadeout{
 }
 
 .exp-wrapper {
-    overflow: hidden;         
+    overflow: hidden;
+    width: 100%;         
     cursor: grab;
     position: relative;
 }
@@ -449,6 +450,7 @@ header.fadeout{
 }
 
 .exp-card {
+    width: auto;          
     flex: 0 0 20rem;           
     background: var(--profile-top-bg);
     border-radius: 1rem;
@@ -457,13 +459,18 @@ header.fadeout{
     justify-content: center;
     box-sizing: border-box;
     user-select: none;        
+    text-align: center;
     transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .exp-card img {
     max-width: 90%;
     height: auto;
-    display: block;
+    display: inline-block;
+}
+
+.exp-logos.track1 {
+    transition-timing-function: linear !important;
 }
 
 .exp-card:hover {
