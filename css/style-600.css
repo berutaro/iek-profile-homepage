@@ -49,6 +49,10 @@
         width: 100%;
     }
 
+    .visual-title {
+        font-size: 3.5rem;
+    }
+
     .visual {
         margin-top: 4rem;
         padding: 2.5rem 0 3.5rem;

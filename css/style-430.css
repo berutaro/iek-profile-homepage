@@ -2,7 +2,7 @@
 
     .mo {
         display: block;
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .pc {
@@ -30,7 +30,7 @@
     }
 
     .exp-title {
-        font-size: 2.5rem;
+        font-size: 3rem;
         line-height: var(--lnh140);
         margin: 0 0 3rem;
         padding: 0 1.5rem;      
@@ -38,7 +38,7 @@
     }
 
     .skills-title {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .skills-visual {
@@ -54,6 +54,9 @@
         padding: 2.5rem 0 3.5rem;
     }
     
+    .visual-title {
+        font-size: 3rem;
+    }
     .visual-bg {
         justify-content: flex-start;
         padding-top: 3rem;
