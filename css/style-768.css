@@ -260,6 +260,10 @@
     }
 
 
+    .visual-title { 
+        font-size: 3.5rem;
+    }
+
    .visual-top-text {
         font-size: 9.5rem;
         margin-top: 0rem;

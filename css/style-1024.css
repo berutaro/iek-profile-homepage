@@ -300,9 +300,12 @@
         width: 100%;
         max-width: 900px;
     }
-
-
     
+    
+    .visual-title { 
+        font-size: 4rem;
+    }
+
     .visual-top-text {
         font-size: 15rem;
         margin-top: 0rem;
