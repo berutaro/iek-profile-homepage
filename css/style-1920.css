@@ -541,10 +541,29 @@ header.fadeout{
     position: relative;
     background: rgba(202, 196, 208, 0.1);
     overflow: hidden;
+    padding-top: 4rem; 
+}
+
+.visual-header {
+    position: relative;
+    z-index: 10;      
+    padding-bottom: 2rem;  
+    text-align: center;
+}
+
+.visual-title {
+    font-size: 5rem;
+    font-weight: var(--weight2);
+    line-height: var(--lnh140);
+    margin-bottom: 1rem; /* 제목과 설명 간격 */
+}
+
+.visual-txt {
+    font-size: var(--body);
 }
 
 .visual-bg-text {
-    line-height: 1;
+    line-height: 0.8;
     font-weight: var(--weight1);
     color: rgb(120 120 120 / 12%);
     pointer-events: none;
@@ -552,6 +571,10 @@ header.fadeout{
     width: 100%;
     text-align: center;
     z-index: 1;
+}
+.visual-title.a{
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 .visual-top-text {
