@@ -246,24 +246,48 @@
                             <span class="exp-detail">주식회사 미디어랩스 - 브랜드 디자인</span>
                         </li>
                     </ul>
-                    </div>
-                <div class="exp-wrapper">
-                    <div class="exp-logos">
-                        <figure class="exp-card">
+                </div>
+                <div class="exp-wrapper swiper">
+                    <div class="exp-logos track1 swiper-wrapper">
+                        <figure class="exp-card swiper-slide">
                             <img src="./img/logo-sy.svg" alt="SY 로고">
                         </figure>
-                        <figure class="exp-card">
+                        <figure class="exp-card swiper-slide">
                             <img src="./img/logo-chris.svg" alt="CHRIS&COMPANY 로고">
                         </figure>
-                        <figure class="exp-card">
+                        <figure class="exp-card swiper-slide">
                             <img src="./img/logo-softpack.svg" alt="SOFTPACK 로고">
                         </figure>
-                        <figure class="exp-card">
+                        <figure class="exp-card swiper-slide">
+                            <img src="./img/logo-mediawraps.svg" alt="media wraps 로고">
+                        </figure>
+                        <figure class="exp-card swiper-slide">
+                            <img src="./img/logo-sy.svg" alt="SY 로고">
+                        </figure>
+                        <figure class="exp-card swiper-slide">
+                            <img src="./img/logo-chris.svg" alt="CHRIS&COMPANY 로고">
+                        </figure>
+                        <figure class="exp-card swiper-slide">
+                            <img src="./img/logo-softpack.svg" alt="SOFTPACK 로고">
+                        </figure>
+                        <figure class="exp-card swiper-slide">
                             <img src="./img/logo-mediawraps.svg" alt="media wraps 로고">
                         </figure>
                     </div>
                 </div>
             </div>
+            <script>
+            let expSlider = new Swiper(".exp-wrapper", {
+                slidesPerView: "auto",
+                autoplay: {
+                    delay: 0,
+                    disableOnInteraction: false
+                },
+                spaceBetween: 24,
+                speed: 2500,      
+                loop: true
+            })
+            </script>
         </section>
         <section class="skills" id="skills">
             <div class="common-frame">
