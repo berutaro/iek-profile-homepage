@@ -63,17 +63,9 @@ h4{
 }
 @media (max-width:768px){
     html{
-        font-size: 15px;
+        font-size: 14.5px;
     }
     .common-frame{
         margin: 0 1rem;
-    }
-}
-@media (max-width: 480px){
-    html {
-        font-size: 14px; 
-    }
-    .common-frame {
-        padding: 0 1rem;
     }
 }
