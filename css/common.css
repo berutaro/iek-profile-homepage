@@ -63,7 +63,7 @@ h4{
 }
 @media (max-width:768px){
     html{
-        font-size: 14.5px;
+        font-size: 14px;
     }
     .common-frame{
         margin: 0 1rem;
