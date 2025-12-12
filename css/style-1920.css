@@ -934,7 +934,14 @@ img:nth-child(2) {
         width: 15rem;
         transform: rotate(15deg);
     }
+
+    .btn-resume {
+        width: 140px;
+        max-width: 100%;
+        height: auto;
+    }
 }
+
 
 
 
